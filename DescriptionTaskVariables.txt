@@ -1,0 +1,60 @@
+DESCRIPTION TASK VARIABLES
+
+Music Preference Task
+--------------------------
+ppnr = participant number
+trialnr = trial number
+s1.entclass = entropy class of first sequence (from 1 to 11)
+s1.stimnr = stimulus number of first sequence (from 1 to 20, as there were 20 sequences in each entropy class)
+s2.entclass = entropy class of second sequence
+s2.stimnr = stimulus number of second sequence
+r =  response (1 or 2, for first or second sequence chosen)
+s1.tone1 = first tone of first sequence (from 1 to 7, 1 = F3, 2 = G3, 3 = A3, 4 = B3, 5 = C4, 6 = D4, 7 = E4)
+s1.tone2 = second tone of first sequence 
+s1.tone3 = third tone of first sequence 
+s1.tone4 = fourth tone of first sequence 
+s1.tone5 = fifth tone of first sequence 
+s1.tone6 = sixth tone of first sequence 
+s1.tone7 = seventh tone of first sequence 
+s1.sameentropy = same entropy of the first sequence
+s1.nextentropy = next entropy of the first sequence
+s1.entropy = average entropy of the first sequence
+s2.tone1 = first tone of second sequence
+s2.tone2 = second tone of second sequence 
+s2.tone3 = third tone of second sequence 
+s2.tone4 = fourth tone of second sequence 
+s2.tone5 = fifth tone of second sequence 
+s2.tone6 = sixth tone of second sequence 
+s2.tone7 = seventh tone of second sequence 
+s2.sameentropy = same entropy of the second sequence
+ts2.nextentropy = next entropy of the second sequence
+s2.entropy = average entropy of the second sequence
+
+
+Perceptual Fluency Task 
+--------------------------
+ppnr = participant number
+trialnr = trial number
+preference = ratings on likert scale between 1 (least beautiful) to 7 (most beautiful)
+rt = reaction time in seconds
+target_nr = number of target image
+prime_nr = number of prime image
+matching = congruency, 0 (incongruent) or 1 (congruent)
+t_prime = presentation time of prime in seconds
+
+
+Gambling Task
+--------------------------
+ppnr = participant number
+order = order in which the decks were presented, between 0 and 23 (24 possibilities)
+trialnr = trial number
+amount_won = amount of money won in current trial
+W_value_win = money that can be won in fixed deck in current trial
+X_value_win = money than can be won in SD = 10 deck in current trial
+Y_value_win = money that can be won in SD = 30 deck in current trial
+Z_value_win = money that can be won in SD = 70 deck in current trial
+r = response (1 = most left deck chosen, 2 = middle left chosen, 3 = middle right chosen, 4 = most right deck chosen)
+real_r = response (0 = fixed deck chosen, 1 = SD10 deck chosen, 2 = SD30 deck chosen, 3 = SD70 deck chosen)
+rt = reaction time in miliseconds
+money = total amount of money gathered in previous trials
+
