@@ -1,8 +1,10 @@
+# Cache folders
+**/__pycache__/
+**/.ipynb_checkpoints/
+
 # History files
 .Rhistory
 .Rapp.history
-
-./data/*
 
 # Session Data files
 .RData
@@ -49,3 +51,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Project Specific
+./data/*
